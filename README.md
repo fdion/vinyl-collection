@@ -6,12 +6,12 @@ vinyl-collection takes barcodes and spits out the title and artist, if it can, u
 We use discogs_client - hosted on GitHub, to do this. Looks a bit dead, though... 
 
 TODO:
-- [ ]Year and format.
+- [X]Year and format.
 - [ ]Make it less crappy.
-- [ ]Make it work with an androud app to scan batches of music.
+- [ ]Make it work with an android app to scan batches of music.
 - [ ]Import/Export the data nicely.
 - [ ]Be able to type/scan in codes too.
-- [ ]Getting album art could be cool
+- [X]Getting album art could be cool
 - [ ]Store in DB
 
 Note:
