@@ -21,9 +21,12 @@ def printDate(obj):
 def printArt(obj,res):
     try:
         for image in obj.data['images']:
+            image_type = str(image['type'])
             image_uri = str(image['uri'])
-            print image_uri
-            grabArt(res + "_" + str(image['height']) + "x" + str(image['width']) + ".jpeg",image_uri)
+            
+            if image_type == u"primary":
+                print image_uri
+                grabArt(res + "_" + str(image['height']) + "x" + str(image['width']) + ".jpeg",image_uri)
     except Exception as e:
         print str(e)
 
